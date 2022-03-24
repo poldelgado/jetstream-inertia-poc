@@ -21,7 +21,10 @@
               Dashboard
             </jet-nav-link>
             <jet-nav-link :href="route('users.index')" :active="route().current('users.index')">
-              Users
+              List Users
+            </jet-nav-link>
+            <jet-nav-link :href="route('users.create')" :active="route().current('users.create')">
+              New User
             </jet-nav-link>
 
           </ul>
